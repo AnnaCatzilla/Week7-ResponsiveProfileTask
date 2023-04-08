@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    .container {
+        width: 100%;
+        background-color: rgb(34, 99, 77);
+        color: rgb(19, 173, 68);
+    }
+
+    .image-container {  
+        background-image: url('../img/profile1.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(141, 134, 39);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a{
+        color: rgb(141, 134, 39);
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    .container {
+        width: 100%;
+        background-color: rgb(182, 174, 227);
+        color: rgb(66, 15, 132);
+    }
+
+    .image-container {  
+        background-image: url('../img/profile2.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(34, 143, 141);
+    }
+
+    .footer ul a{
+        color: rgb(34, 143, 141);
+    }
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+}
+
+
+@media (min-width: 1024px){
+        
+    .container {
+        width: 100%;
+        background-color: rgb(237, 237, 154);
+        color: rgb(235, 124, 39);
+    }
+
+    .image-container {  
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(206, 59, 26);
+    }
+
+    .footer ul a{
+        color: rgb(206, 59, 26);
+    }
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+}
+
+
+@media (min-width: 1200px){
+
+    .container {
+        width: 100%;
+        background-color: rgb(119, 46, 91);
+        color: rgb(205, 128, 128);
+    }
+
+    .image-container {  
+        background-image: url('../img/profile4.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(223, 182, 182);
+    }
+
+    .footer ul a{
+        color: rgb(223, 182, 182);
+    }
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid rgb(223, 182, 182);
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
+
